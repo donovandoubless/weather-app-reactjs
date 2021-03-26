@@ -139,3 +139,19 @@ footer {
 	right: 0;
 	text-align: center;
 }
+
+@media screen and (max-width: 700px) {
+	footer {
+		bottom: 0.2rem;
+	}
+	main {
+		width: 22rem;
+	}
+	body {
+		background-image: radial-gradient(
+			circle,
+			rgba(255, 255, 255, 0.15),
+			rgba(6, 101, 179, 0.7)
+		);
+	}
+}
